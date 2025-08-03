@@ -11,11 +11,23 @@
     <!-- Font Awesome 4 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Bootstap Link -->
+     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
 </head>
 <body>
     
     <?php include './components/nav.php' ?>
 
+
+
+    <!-- Reg Scripts -->
+
+
+    <!-- bootstrap Scripts -->
+     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
