@@ -20,12 +20,21 @@
     
     <?php include './components/nav.php' ?>
 
+    <?php include './components/welcomeComp.php' ?>
+
     <?php include './components/hotButtons.php' ?>
 
     <?php include './components/tableListings.php'?>
 
-    <!-- Reg Scripts -->
 
+
+
+
+    <?php include './components/footer.php' ?>
+
+
+    <!-- Reg Scripts -->
+    <script src="./scripts/homeScript.js"></script>
 
     <!-- bootstrap Scripts -->
      <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
