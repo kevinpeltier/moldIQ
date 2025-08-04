@@ -20,7 +20,9 @@
     
     <?php include './components/nav.php' ?>
 
+    <?php include './components/hotButtons.php' ?>
 
+    <?php include './components/tableListings.php'?>
 
     <!-- Reg Scripts -->
 
