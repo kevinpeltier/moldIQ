@@ -1,0 +1,102 @@
+/* Standardized Colors, Fonts, */
+
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+
+:root {
+  /* Core Colors */
+  --color-accent: #f97316;
+  --color-primary: #333333;
+  --color-secondary: #64748b;
+  --color-success: #14b8a6;
+
+  /* Background & Text */
+  --color-background: #f9fafb; /* Soft off-white */
+  --color-background-two: #e0e0e0;
+  --color-text: #111827; /* Slate-900 */
+
+  /* Utility Shades */
+  --color-muted: #e5e7eb; /* Gray-200 for borders, cards, etc. */
+  --color-border: #d1d5db; /* Gray-300 */
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-accent: #f97316;
+    --color-primary: #f3f4f6;
+    --color-secondary: #cbd5e1;
+    --color-success: #5eead4;
+
+    --color-background: #1f2937;
+    --color-text: #f9fafb;
+
+    --color-muted: #374151;
+    --color-border: #4b5563;
+  }
+} */
+
+/* reset global */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* Body & General */
+
+body {
+  background-color: var(--color-background);
+}
+
+/* Navigation  */
+
+nav {
+  display: flex;
+  margin: 1rem;
+}
+
+nav a:hover {
+  color: var(--color-accent);
+}
+
+.Nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.Nav-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+
+.grouped-Nav-links {
+  background-color: var(--color-background-two);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  border-radius: 10rem;
+}
+
+.grouped-Nav-links a {
+  padding: 0.5rem;
+}
+
+.grouped-Nav-links a:first-child {
+  background-color: #333333;
+  border-radius: 10rem;
+  color: #f97316;
+}

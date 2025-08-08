@@ -1,0 +1,14 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-accent: #f97316;
+    --color-primary: #f3f4f6;
+    --color-secondary: #cbd5e1;
+    --color-success: #5eead4;
+
+    --color-background: #1f2937; /* Slate-800 */
+    --color-text: #f9fafb; /* Near white for dark backgrounds */
+
+    --color-muted: #374151; /* Gray-700 */
+    --color-border: #4b5563; /* Gray-600 */
+  }
+}
