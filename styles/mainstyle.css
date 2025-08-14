@@ -1,6 +1,6 @@
 /* Standardized Colors, Fonts, */
 
-@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   /* Core Colors */
@@ -41,9 +41,10 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  font-family: "Oxanium", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
   font-size: 20px;
 }
@@ -58,7 +59,9 @@ body {
 
 nav {
   display: flex;
-  margin: 1rem;
+  margin: 1rem auto;
+  padding: 0 2rem;
+  max-width: 1800px;
 }
 
 nav a:hover {
@@ -77,8 +80,9 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 800;
-  padding: 0.5rem;
+  font-weight: 500;
+  padding: 0.75rem 0.75rem;
+  transition: all 225ms ease-in-out;
 }
 
 .grouped-Nav-links {
@@ -87,16 +91,33 @@ nav a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem 0.5rem;
+  margin: 0 1rem;
+  padding: 0.35rem 0.35rem;
   border-radius: 10rem;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 .grouped-Nav-links a {
-  padding: 0.5rem;
+  padding: 1rem;
+  transition: all 225ms ease-in-out;
 }
 
-.grouped-Nav-links a:first-child {
+.grouped-Nav-links a.active {
   background-color: #333333;
   border-radius: 10rem;
   color: #f97316;
+  font-weight: 900;
 }
+
+.Nav-links a.active {
+  color: #f97316;
+  background-color: var(--color-primary);
+  border-radius: 10rem;
+  font-weight: 900;
+}
+
+/* .Nav-links a.active i {
+  background-color: var(--color-primary);
+  border-radius: 10rem;
+  padding: 0.25rem;
+} */
