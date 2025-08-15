@@ -93,7 +93,7 @@ nav a:hover i {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0 1rem;
+  margin: 0 1.5rem;
   padding: 0.35rem 0.35rem;
   border-radius: 10rem;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
@@ -103,6 +103,10 @@ nav a:hover i {
   padding: 1rem;
   transition: all 225ms ease-in-out;
   /* color: var(--color-text); */
+}
+
+.grouped-Nav-links a:first-child {
+  margin-right: 0.5rem;
 }
 
 .grouped-Nav-links a.active {
