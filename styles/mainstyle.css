@@ -47,6 +47,7 @@
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
+  color: var(--color-text);
 }
 
 /* Body & General */
@@ -64,7 +65,8 @@ nav {
   max-width: 1800px;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:hover i {
   color: var(--color-accent);
 }
 
@@ -100,20 +102,25 @@ nav a:hover {
 .grouped-Nav-links a {
   padding: 1rem;
   transition: all 225ms ease-in-out;
+  /* color: var(--color-text); */
 }
 
 .grouped-Nav-links a.active {
   background-color: #333333;
   border-radius: 10rem;
-  color: #f97316;
+  color: var(--color-accent);
   font-weight: 900;
 }
 
 .Nav-links a.active {
-  color: #f97316;
+  color: var(--color-accent);
   background-color: var(--color-primary);
   border-radius: 10rem;
   font-weight: 900;
+}
+
+.Nav-links a.active i {
+  color: var(--color-accent);
 }
 
 /* .Nav-links a.active i {
@@ -121,3 +128,7 @@ nav a:hover {
   border-radius: 10rem;
   padding: 0.25rem;
 } */
+
+@view-transition {
+  navigation: auto;
+}
