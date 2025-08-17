@@ -75,32 +75,3 @@
 
 
 </div>
-
-
-
-
-
-
-    <!-- <table>
-        <thead>
-            <th>Job Number</th>
-            <th>Part Name</th>
-            <th>Customer</th>
-            <th>Status</th>
-            <th>Actions</th>
-        </thead>
-        <tr>
-            <td>1234</td>
-            <td>A Pillar</td>
-            <td>Moon Man Molder</td>
-            <td>Approved</td>
-            <td>
-                <button class="std-button">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
-                </button>
-                <button class="std-button">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
-                </button>
-            </td>
-        </tr>
-    </table> -->
