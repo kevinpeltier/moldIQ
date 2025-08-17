@@ -24,11 +24,12 @@
     
     <?php include './components/nav.php' ?>
 
+    <?php include './components/homeMain.php' ?>
 
 
 
 
-    <!-- <?php include './components/footer.php' ?> -->
+    <?php include './components/footer.php' ?>
 
 
     <!-- Reg Scripts -->
