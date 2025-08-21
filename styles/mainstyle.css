@@ -59,6 +59,7 @@
 
 body {
   background-color: var(--color-background);
+  /* height: 100%; */
 }
 
 /* Navigation  */
@@ -137,6 +138,9 @@ nav a:hover i {
 main {
   max-width: var(--max-width);
   margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 175px);
 }
 
 /* quick icon home page */
@@ -148,11 +152,13 @@ main {
 /* home/dashboard information table */
 
 .dashboard-info-display {
-  margin-top: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   width: 100%;
+  height: 100%;
   box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
   border-radius: var(--radius-normal);
-  /* border: #111827 solid 1px; */
+  overflow-y: auto;
 }
 
 .dashboard-info-display:last-child {
